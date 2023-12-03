@@ -1,0 +1,68 @@
+body
+{
+    background-image: url('kepek/bg.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(151, 151, 151);
+    color: rgb(221, 221, 221);
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(138, 0, 7);
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) 
+{
+    background-color: rgb(77, 0, 4);
+}
+article
+{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 6px;
+}
+h1
+{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+}
+h2
+{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+h3
+{
+    margin-top: 50px;
+    font-size: small;
+}
+#gomb
+{
+    background-color: rgb(138, 0, 7);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}

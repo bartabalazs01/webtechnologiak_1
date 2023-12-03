@@ -1,0 +1,96 @@
+body
+{
+    background-image: url('kepek/bg.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(151, 151, 151);
+    color: rgb(221, 221, 221);
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(138, 0, 7);
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) 
+{
+    background-color: rgb(77, 0, 4);
+}
+article
+{
+    padding: 10px 20px 0px 20px;
+}
+h1
+{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    padding-left: 15px;
+    text-align: center;
+}
+#adatok
+{
+    height: 300px;
+    width: 750px;
+    padding: 10px 20px 30px 20px;
+    background-color: rgb(107, 107, 107);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+table
+{
+    margin: auto;
+    padding:  5px 10px 5px 10px;
+    border-radius: 6px;
+    width: 600px;
+    height: 200px;
+}
+td
+{
+    padding:  10px 5px 5px 5px;
+}
+.bal
+{
+    text-align: left;
+    background-color: rgb(15, 15, 15);
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.jobb
+{
+    text-align: right;
+    background-color: rgb(65, 65, 65);
+    padding-right: 10px;
+    border-radius: 6px;
+}
+#iframeid
+{
+    text-align: left;
+    background-color: rgb(65, 65, 65);
+    padding:  10px 10px 10px 10px;
+    margin: auto;
+    border-radius: 6px;
+}
+iframe
+{
+    height: 500px;
+    width: 500px;
+    border-radius: 6px;
+}
+a
+{
+    color: rgb(221, 221, 221);
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style5.css">
+        <title>Kapcsolat - Asztalos javítások</title>
+        <script>
+            function valasz()
+            {
+                alert("Sajnos ez a funkció még nem elérhető!");
+            }
+            function ertekelometodus()
+            {
+                if(document.getElementById("one").checked)
+                {
+                    alert("Köszönjük a kiváló értékelést!");
+                }
+                if(document.getElementById("two").checked)
+                {
+                    alert("Köszönjük a jó értékelést!");
+                }
+                if(document.getElementById("three").checked)
+                {
+                    alert("Köszönjük a közepes értékelést!");
+                }
+                if(document.getElementById("four").checked)
+                {
+                    alert("Köszönjük az értékelést!");
+                }
+                if(document.getElementById("five").checked)
+                {
+                    alert("Köszönjük az értékelést!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <ul> 
+                    <li>
+                        <a  href="index.html">Asztalos javítások</a>
+                    </li>
+                    <li>
+                        <a href="dijszabas.html">Díjszabás</a>
+                    </li>
+                    <li>
+                        <a href="szolgaltatasok.html">Szolgáltatások</a>
+                    </li>  
+                    <li>
+                        <a href="elerhetoseg.html">Elérhetőség</a>
+                    </li>
+                    <li>
+                        <a href="kapcsolat.html">Kapcsolat</a>
+                    </li>
+                </ul>
+            </header>
+            <article>
+                    <h1>Kapcsolat</h1>
+                    <div id="kapcsolatdoboz">
+                        <h3>Írjon nekünk!</h3>
+                        <form action="" method="">
+                            <div class="egydoboz">
+                                <label>Név:</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="egydoboz">
+                                <label>e-mail:</label>
+                                <input type="email" required>
+                            </div>
+                            <div class="egydoboz">
+                                <label>Telefon:</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="egydoboz">
+                                <label>Tárgy:</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="uzenetdoboz">
+                                <label>Üzenet:</label><br>
+                                <textarea cols="69" rows="10" required></textarea>
+                            </div>
+                        </form>
+                        <div id="gombdiv">
+                                <input type="button" id="gomb" value="Küldés" onclick="valasz()"/>
+                            </div>
+                    </div>
+            </article>
+            <div id="ertekelkeret">
+                <h4>Kérem értékelje az oldalt!</h4>
+                <form method="post" id="radiogombok">
+                    <label class="szam">1</label>
+                    <label class="szam">2</label>
+                    <label class="szam">3</label>
+                    <label class="szam">4</label>
+                    <label class="szam">5</label>
+                    <br>
+                    <input type="radio" class="radio" id="one" name="ertekeles"/>
+                    <input type="radio" class="radio" id="two" name="ertekeles"/>
+                    <input type="radio" class="radio" id="three" name="ertekeles"/>
+                    <input type="radio" class="radio" id="four" name="ertekeles"/>
+                    <input type="radio" class="radio" id="five" name="ertekeles"/>
+                </form><br>
+                <input type="button" id="gombocska" value="Értékel" onclick="ertekelometodus()"/>
+            </div>
+        </div>
+    </body>
+</html>

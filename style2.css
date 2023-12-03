@@ -1,0 +1,120 @@
+body
+{
+    background-image: url('kepek/bg.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(151, 151, 151);
+    color: rgb(221, 221, 221);
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(138, 0, 7);
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) 
+{
+    background-color: rgb(77, 0, 4);
+}
+article
+{
+    height: 550px;
+    width: 1000px;
+    padding: 10px 20px 0px 20px;
+    background-color: rgb(107, 107, 107);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+h1
+{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+table
+{
+    margin: auto;
+    padding:  5px 10px 5px 10px;
+    background-color:  rgb(41, 41, 41);
+    border-radius: 6px;
+    width: 820px;
+    height: 200px;
+}
+td
+{
+    padding:  10px 5px 5px 5px;
+}
+.bal
+{
+    text-align: left;
+    background-color: rgb(15, 15, 15);
+    border-radius: 6px;
+}
+.jobb
+{
+    text-align: right;
+    background-color: rgb(65, 65, 65);
+    border-radius: 6px;
+}
+.jobb2
+{
+    text-align: right;
+    background-color: rgb(133, 133, 133);
+    border-radius: 6px;
+}
+#dolgok
+{
+    padding:  5px 10px 5px 10px;
+    background-color:  rgb(41, 41, 41);
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 165px;
+}
+#elso
+{
+    background-color: rgb(15, 15, 15);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#masod
+{
+    background-color: rgb(48, 48, 48);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#harmad
+{
+    background-color: rgb(65, 65, 65);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+#negy
+{
+    background-color: rgb(88, 88, 88);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

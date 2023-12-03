@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Asztalos javítások</title>
+        <script>
+            function validateForm() {
+              var x = document.forms["Formnev"]["fnev"].value;
+              if (x == "") 
+              {
+                alert("Hibás adat!");
+                return false;
+              }
+              else alert("Köszönjük!");
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <ul> 
+                    <li>
+                        <a href="index.html">Asztalos javítások</a>
+                    </li>
+                    <li>
+                        <a href="dijszabas.html">Díjszabás</a>
+                    </li>
+                    <li>
+                        <a href="szolgaltatasok.html">Szolgáltatások</a>
+                    </li>  
+                    <li>
+                        <a href="elerhetoseg.html">Elérhetőség</a>
+                    </li>
+                    <li>
+                        <a href="kapcsolat.html">Kapcsolat</a>
+                    </li>
+                </ul>
+            </header>
+            <article>
+                <h1>Asztalos javítások</h1>
+                <h2>Szeretne <span style="color: #9b9b9b;">egyedi</span> bútort?</h2>
+                <h2>Hívjon minket! Segítünk!</h2>
+                <h3>Addja meg nevét, hogy tudjuk ki látogatott el az oldalunkra:</h3>
+                <form name="Formnev" action="" onsubmit="return validateForm()" method="post">
+                    Név:  <input type="text" name="fnev">
+                          <input type="submit" id="gomb" value="Küldés">
+                  </form>
+                  
+                
+            </article>
+        </div>
+    </body>
+</html>
